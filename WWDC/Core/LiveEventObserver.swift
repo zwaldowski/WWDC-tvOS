@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 import AVKit
+import SwiftyJSON
 
 public let LiveEventNextInfoChangedNotification = "LiveEventNextInfoChangedNotification"
 public let LiveEventTitleAvailableNotification = "LiveEventTitleAvailableNotification"

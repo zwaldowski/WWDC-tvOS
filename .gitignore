@@ -17,3 +17,5 @@ DerivedData
 .idea/
 Crashlytics.sh
 generatechangelog.sh
+
+Carthage/Build
