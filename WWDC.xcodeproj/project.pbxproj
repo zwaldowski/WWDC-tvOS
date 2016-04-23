@@ -259,11 +259,11 @@
 				TargetAttributes = {
 					DD64C9471C2B131100960611 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 8C7439RJLG;
+						DevelopmentTeam = 53A8EFRS44;
 					};
 					DD9A55461BFE8511004869A4 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = 8C7439RJLG;
+						DevelopmentTeam = 53A8EFRS44;
 					};
 				};
 			};
@@ -377,7 +377,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "WWDC Top Shelf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.guilhermerambo.WWDC-TV.WWDC-Top-Shelf";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.waldowski.WWDC-TV.WWDC-Top-Shelf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
@@ -387,10 +387,10 @@
 		DD64C9541C2B131100960611 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: GUILHERME RAMBO (8C7439RJLG)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "WWDC Top Shelf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.guilhermerambo.WWDC-TV.WWDC-Top-Shelf";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.waldowski.WWDC-TV.WWDC-Top-Shelf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
@@ -498,7 +498,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WWDC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.guilhermerambo.WWDC-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.waldowski.WWDC-TV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -508,11 +508,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: GUILHERME RAMBO (8C7439RJLG)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WWDC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.guilhermerambo.WWDC-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.waldowski.WWDC-TV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b3904f02-b140-458e-a04f-edca5af24abe";
 			};
