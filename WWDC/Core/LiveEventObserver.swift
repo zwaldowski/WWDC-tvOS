@@ -35,7 +35,7 @@ class LiveEventObserver: NSObject {
     func start(parent: UIViewController) {
         parentViewController = parent
         
-        timer = NSTimer.scheduledTimerWithTimeInterval(5.0, target: self, selector: "checkNow", userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(5.0, target: self, selector: #selector(checkNow), userInfo: nil, repeats: true)
         checkNow()
     }
     
